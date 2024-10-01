@@ -1,4 +1,24 @@
 # Getting Started
+Working Fine. Data is coming from HANA Cloud DB.
+- npm install
+- npm install -g hana-cli
+- npm add @sap/cds-common-content –save
+
+cds add hana
+
+- cds build --production
+- cds watch
+
+BAS - SAP HANA Projects,
+- Bind --> Bind to an HDI container --> new service instance
+  and Deploy. Now check in HANA Database Explorer in BTP
+
+Run the services
+- cds bind -2 cap_bookshop-hdi-dev
+- cds watch --profile hybrid
+=========================================================
+
+
 
 Welcome to your new project.
 
